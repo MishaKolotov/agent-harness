@@ -1,0 +1,11 @@
+{
+  "_why": "Any > used to count as a write, and `2>&1` is in almost every command — reading a contract file became impossible. Now the redirect must target the file itself.",
+  "payload": {
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "npm run build 2>&1 | tail -3 && sed -n '400,420p' src/lib/ai/score.ts"
+    },
+    "cwd": "{{ROOT}}"
+  }
+}

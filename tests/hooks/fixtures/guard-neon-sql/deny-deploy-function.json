@@ -1,0 +1,12 @@
+{
+  "_why": "Deploys code into the production Neon project. No sql field, deploy was not in the destructive verb class.",
+  "payload": {
+    "hook_event_name": "PreToolUse",
+    "tool_name": "mcp__neon__deploy_function",
+    "tool_input": {
+      "projectId": "proj-1",
+      "name": "f1"
+    },
+    "cwd": "{{ROOT}}"
+  }
+}

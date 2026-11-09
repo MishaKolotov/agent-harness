@@ -1,0 +1,12 @@
+{
+  "payload": {
+    "hook_event_name": "PreToolUse",
+    "tool_name": "mcp__neon__run_sql",
+    "tool_input": {
+      "projectId": "proj-1",
+      "sql": "DELETE FROM jobs",
+      "branchId": "br-main-12345"
+    },
+    "cwd": "{{ROOT}}"
+  }
+}

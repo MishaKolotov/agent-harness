@@ -1,0 +1,12 @@
+{
+  "_why": "Postgres needs no space between a keyword and a quoted identifier, the matcher required one: UPDATE\"jobs\" reached production as ALLOW.",
+  "payload": {
+    "hook_event_name": "PreToolUse",
+    "tool_name": "mcp__neon__run_sql",
+    "tool_input": {
+      "projectId": "proj-1",
+      "sql": "UPDATE\"jobs\" SET status='hidden'"
+    },
+    "cwd": "{{ROOT}}"
+  }
+}

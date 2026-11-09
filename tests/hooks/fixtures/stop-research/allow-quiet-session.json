@@ -1,0 +1,11 @@
+{
+  "files": {
+    ".claude/.session-started": "",
+    "transcript.jsonl": "{\"type\":\"assistant\",\"message\":{\"content\":[{\"type\":\"tool_use\",\"name\":\"WebFetch\",\"input\":{\"url\":\"https://example/0\"}}]}}\n"
+  },
+  "payload": {
+    "hook_event_name": "Stop",
+    "cwd": "{{ROOT}}",
+    "transcript_path": "{{ROOT}}/transcript.jsonl"
+  }
+}

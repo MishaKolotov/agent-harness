@@ -1,0 +1,13 @@
+{
+  "_why": "Creates a Postgres role with access to production data. No sql field, and create was not in the destructive verb class.",
+  "payload": {
+    "hook_event_name": "PreToolUse",
+    "tool_name": "mcp__neon__create_postgres_role",
+    "tool_input": {
+      "projectId": "proj-1",
+      "branchId": "br-main",
+      "roleName": "r1"
+    },
+    "cwd": "{{ROOT}}"
+  }
+}

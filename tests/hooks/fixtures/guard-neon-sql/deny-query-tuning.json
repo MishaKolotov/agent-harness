@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "hook_event_name": "PreToolUse",
+    "tool_name": "mcp__neon__complete_query_tuning",
+    "tool_input": {
+      "tuningId": "t-1"
+    },
+    "cwd": "{{ROOT}}"
+  }
+}

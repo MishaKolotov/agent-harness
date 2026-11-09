@@ -1,0 +1,15 @@
+{
+  "files": {
+    ".claude/.session-neon-branches": "br-sandbox-1\n"
+  },
+  "payload": {
+    "hook_event_name": "PreToolUse",
+    "tool_name": "mcp__neon__run_sql",
+    "tool_input": {
+      "projectId": "proj-1",
+      "sql": "UPDATE jobs SET status = 'new'",
+      "branchId": "br-sandbox-1"
+    },
+    "cwd": "{{ROOT}}"
+  }
+}

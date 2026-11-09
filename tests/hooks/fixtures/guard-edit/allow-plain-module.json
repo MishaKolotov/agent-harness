@@ -1,0 +1,11 @@
+{
+  "payload": {
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Edit",
+    "tool_input": {
+      "file_path": "{{ROOT}}/src/lib/format.ts",
+      "new_string": "export const x = 1;"
+    },
+    "cwd": "{{ROOT}}"
+  }
+}

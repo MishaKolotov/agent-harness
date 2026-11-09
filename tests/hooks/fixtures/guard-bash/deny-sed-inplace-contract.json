@@ -1,0 +1,11 @@
+{
+  "_why": "Second form of the same bypass — sed -i on a contract file.",
+  "payload": {
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "sed -i '' 's/MATCH_FLOOR = 60/MATCH_FLOOR = 0/' src/lib/gates/threshold.ts"
+    },
+    "cwd": "{{ROOT}}"
+  }
+}

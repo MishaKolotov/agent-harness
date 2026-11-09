@@ -1,0 +1,11 @@
+{
+  "payload": {
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Edit",
+    "tool_input": {
+      "file_path": "{{ROOT}}/drizzle/0003_add_col.sql",
+      "new_string": "ALTER TABLE jobs ADD COLUMN x int;"
+    },
+    "cwd": "{{ROOT}}"
+  }
+}

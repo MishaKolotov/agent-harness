@@ -1,0 +1,12 @@
+{
+  "_why": "A trigger on production tables changes the behaviour of EVERY write in the pipeline without a single write statement. No sql field.",
+  "payload": {
+    "hook_event_name": "PreToolUse",
+    "tool_name": "mcp__neon__create_trigger",
+    "tool_input": {
+      "projectId": "proj-1",
+      "name": "t1"
+    },
+    "cwd": "{{ROOT}}"
+  }
+}

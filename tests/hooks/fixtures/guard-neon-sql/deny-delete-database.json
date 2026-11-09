@@ -1,0 +1,13 @@
+{
+  "_why": "Drops every table, no sql field — before an audit the hook was not even invoked for this tool (the matcher knew five names).",
+  "payload": {
+    "hook_event_name": "PreToolUse",
+    "tool_name": "mcp__neon__delete_postgres_database",
+    "tool_input": {
+      "projectId": "proj-1",
+      "branchId": "br-main",
+      "databaseName": "neondb"
+    },
+    "cwd": "{{ROOT}}"
+  }
+}

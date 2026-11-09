@@ -1,0 +1,4 @@
+node_modules/
+.claude/.session-*
+.claude/current-spec
+.claude/settings.local.json

@@ -1,0 +1,11 @@
+{
+  "_why": "Reading a contract file from a shell must stay free, or the guard makes work impossible.",
+  "payload": {
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "sed -n '1,40p' src/lib/gates/threshold.ts"
+    },
+    "cwd": "{{ROOT}}"
+  }
+}

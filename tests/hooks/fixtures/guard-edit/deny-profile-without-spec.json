@@ -1,0 +1,11 @@
+{
+  "payload": {
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Write",
+    "tool_input": {
+      "file_path": "{{ROOT}}/profile.md",
+      "content": "# Profile"
+    },
+    "cwd": "{{ROOT}}"
+  }
+}

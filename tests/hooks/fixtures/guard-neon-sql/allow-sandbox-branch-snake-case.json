@@ -1,0 +1,16 @@
+{
+  "_why": "The Neon MCP server takes branch_id, the guard read only branchId: the sandbox exception never fired and the migration path was impossible. The guard looked healthy — it denied everything.",
+  "files": {
+    ".claude/.session-neon-branches": "br-sandbox-1\n"
+  },
+  "payload": {
+    "hook_event_name": "PreToolUse",
+    "tool_name": "mcp__neon__run_sql",
+    "tool_input": {
+      "project_id": "proj-1",
+      "branch_id": "br-sandbox-1",
+      "sql": "ALTER TABLE \"jobs\" ADD COLUMN \"send_attempts\" integer DEFAULT 0 NOT NULL"
+    },
+    "cwd": "{{ROOT}}"
+  }
+}

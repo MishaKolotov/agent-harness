@@ -1,0 +1,12 @@
+{
+  "_why": "Second form of the same bypass, the most expensive one: TRUNCATE\"jobs\" wipes the table.",
+  "payload": {
+    "hook_event_name": "PreToolUse",
+    "tool_name": "mcp__neon__run_sql",
+    "tool_input": {
+      "projectId": "proj-1",
+      "sql": "TRUNCATE\"jobs\""
+    },
+    "cwd": "{{ROOT}}"
+  }
+}

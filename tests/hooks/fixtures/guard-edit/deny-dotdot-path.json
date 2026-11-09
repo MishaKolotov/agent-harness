@@ -1,0 +1,13 @@
+{
+  "_why": "Same hole via walking back up the tree: src/lib/gates/../gates/threshold.ts is the same file with a different REL.",
+  "payload": {
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Edit",
+    "tool_input": {
+      "file_path": "{{ROOT}}/src/lib/gates/../gates/threshold.ts",
+      "old_string": "a",
+      "new_string": "b"
+    },
+    "cwd": "{{ROOT}}"
+  }
+}

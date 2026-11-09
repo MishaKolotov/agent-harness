@@ -1,0 +1,12 @@
+{
+  "files": {
+    ".claude/.session-touched-src": ""
+  },
+  "env": {
+    "HARNESS_TEST_CMD": "false"
+  },
+  "payload": {
+    "hook_event_name": "Stop",
+    "cwd": "{{ROOT}}"
+  }
+}

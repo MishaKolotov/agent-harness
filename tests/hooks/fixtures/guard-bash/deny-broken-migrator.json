@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "npx drizzle-kit migrate"
+    },
+    "cwd": "{{ROOT}}"
+  }
+}

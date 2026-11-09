@@ -1,0 +1,11 @@
+{
+  "payload": {
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Edit",
+    "tool_input": {
+      "file_path": "{{ROOT}}/src/lib/gates/threshold.ts",
+      "new_string": "const MATCH_FLOOR = 0;"
+    },
+    "cwd": "{{ROOT}}"
+  }
+}

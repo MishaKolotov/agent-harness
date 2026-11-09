@@ -1,0 +1,12 @@
+{
+  "_why": "Destructive tools without an sql field are invisible to the SQL check, and the by-name list fell behind the server. delete_branch on someone else's branch must be blocked.",
+  "payload": {
+    "hook_event_name": "PreToolUse",
+    "tool_name": "mcp__neon__delete_branch",
+    "tool_input": {
+      "projectId": "proj-1",
+      "branchId": "br-production-main"
+    },
+    "cwd": "{{ROOT}}"
+  }
+}

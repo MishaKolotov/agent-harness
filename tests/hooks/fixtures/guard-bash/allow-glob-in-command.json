@@ -1,0 +1,11 @@
+{
+  "_why": "Tokens from $(...) went through PATHNAME EXPANSION: a pattern in the command (a grep regex, a star) expanded into repo files, and the guard accused the command of writing a contract file it never mentioned. Caught on the very first command after the check went live.",
+  "payload": {
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "python3 -c \"import re; print(re.findall(r'(^|[^A-Za-z])(TBD|TODO)', open('README.md').read()))\""
+    },
+    "cwd": "{{ROOT}}"
+  }
+}

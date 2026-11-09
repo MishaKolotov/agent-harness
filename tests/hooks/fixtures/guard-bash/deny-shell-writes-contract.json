@@ -1,0 +1,11 @@
+{
+  "_why": "The spec gate sits only on Edit|Write, but the same file can be rewritten from a shell. Reproduced unintentionally during the audit itself: a contract edit via python in Bash went past the gate.",
+  "payload": {
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "printf 'export const MATCH_FLOOR = 0;\\n' > src/lib/gates/threshold.ts"
+    },
+    "cwd": "{{ROOT}}"
+  }
+}
